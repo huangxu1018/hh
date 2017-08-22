@@ -1,0 +1,21 @@
+{
+  "name": "git02",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "huangxu <11398@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "animate.css": "^3.5.2"
+  }
+}
