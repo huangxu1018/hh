@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,
+                                   initial-scalc=1.0，
+                                   maximum-scale=1.0，
+                                   user-scalable=no">
+
+    <script src="../bootstrap-3.3.7-dist/jquery-3.2.1.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+
+    <style type="text/css">
+        .dropdown-menu li a{
+            color: #d9534f;
+        }
+        .dropdown-menu{
+            background-color: #faf2cc;
+            opacity: 0.7;
+        }
+    </style>
+
+</head>
+<body>
+<div class="dropdown">
+
+    <button class="btn btn-success dropdown-toggle" id="btn_active"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="true">语言</button>
+    <!--data-toggle="dropdown" 数据指向-->
+    <!--aria-haspopup:设置元素点击的时候，出现瘾式元素或者浮动元素
+        aria-expanded：设置展开还是不展开-->
+    <!-- aria-labelledby：当前的按钮跟下面的是链接状态 -->
+    <div class="dropdown-menu" aria-labelledby="btn_active">
+        <ul>
+            <li><a href="#">中文</a></li>
+            <li><a href="#">英文</a></li>
+            <li><a href="#">日文</a></li>
+            <li><a href="#">韩文</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="dropup" style="margin-left: 200px;margin-top: 300px">
+
+    <button class="btn btn-success dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="true">language</button>
+
+    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="btn_active1">
+        <ul>
+            <!-- dropdown-header 菜单标题类-->
+            <li class="divider"></li>
+            <li role="separator" class="dropdown-header"><a>啊哦</a></li>
+            <li class="divider"></li>
+            <li><a href="#">宇腾是傻逼</a></li>
+            <li><a href="#">宇腾还是煞笔</a></li>
+            <li><a href="#">宇腾依旧是沙币</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header"><a>宇腾</a></li>
+            <li class="divider"></li>
+            <li><a href="#">你个脑系咪</a></li>
+            <li><a href="#">搭左的士</a></li>
+            <li><a href="#">走左啊</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
